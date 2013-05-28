@@ -1,1 +1,56 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[cmex10]{amsmath}
+\usepackage{cite}
+\usepackage{paralist}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{minted}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+
+\title{ET4ICP : IC Technology Lab Report}
+\author{
+\IEEEauthorblockN{Adiga Sriram} \IEEEauthorblockA{4236742\\Email: s.p.adiga@student.tudelft.nl}
+\and \IEEEauthorblockN{Abhimanyu Selvan} \IEEEauthorblockA{123\\Email: abc@nl}
+\and \IEEEauthorblockN{Visweswaran Karunanithi} \IEEEauthorblockA{4232720\\Email: V.Karunanithi-1@student.tudelft.nl}
+}
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+We have to write abstract here.
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+\section{Technology Assignments}
+\label{sec:TechAssignments}
+\input{TechAssignment.tex}
+
+\section{Simulation}
+\label{sec:Simulation}
+\input{Simulation.tex}
+
+\section{Processing}
+\label{sec:Processing}
+\input{Processing.tex}
+
+\section{Device Characterization}
+\label{sec:DevChar}
+\input{DevChar.tex}
+
+\section{Conclusion}
 TBD
+
+\section{Acknowledgement}
+We would like to thank the staff of DIMES for the guidance and giving us the opportunity to work in the DIMES clean room as part of the IC Technology course. 
+It was a great learning experience for us to know about the process steps in fabrication of the bipolar transistor.
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibfile}
+
+\end{document}
